@@ -9,9 +9,9 @@ import SwiftUI
 
 @main
 struct SectionDeletionCrashApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
+  var body: some Scene {
+    WindowGroup {
+      ContentView()
     }
+  }
 }
