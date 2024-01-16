@@ -1,6 +1,6 @@
 This is a sample project to reproduce Apple feedback (radar) `FB13544459`.
 
-OS17.2. Xcode 15.2.
+iOS17.2. Xcode 15.2.
 
 - Build the included Xcode project. 
 - Run it on an iPad or iPad simulator in landscape orientation. This does not reproduce on an iPhone. 
