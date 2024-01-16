@@ -30,6 +30,7 @@ struct ContentView: View {
     NavigationSplitView {
 
       //*** Removing the `selection` parameter makes the crash go away. ***
+      // Filed as FB13544459. 
       List(selection: $listSelection) {
         ForEach(sections, id: \.self) { name in
 
